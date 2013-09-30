@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010 Express for Windows Phone
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FractalViewerWindows", "FractalViewerWindows\FractalViewerWindows.csproj", "{69118688-D4A3-4702-B3E4-0907B5A24D2B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{519F7872-6E21-4C05-9242-05136DCCEA34} = {519F7872-6E21-4C05-9242-05136DCCEA34}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FractalModel", "FractalModel\FractalModel.csproj", "{519F7872-6E21-4C05-9242-05136DCCEA34}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D} = {A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Newtonsoft.Json", "Newtonsoft.Json\Newtonsoft.Json.csproj", "{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69118688-D4A3-4702-B3E4-0907B5A24D2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69118688-D4A3-4702-B3E4-0907B5A24D2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69118688-D4A3-4702-B3E4-0907B5A24D2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69118688-D4A3-4702-B3E4-0907B5A24D2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{519F7872-6E21-4C05-9242-05136DCCEA34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{519F7872-6E21-4C05-9242-05136DCCEA34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{519F7872-6E21-4C05-9242-05136DCCEA34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{519F7872-6E21-4C05-9242-05136DCCEA34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
